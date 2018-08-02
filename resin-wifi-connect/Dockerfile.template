@@ -45,8 +45,7 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
 
 
 
-# Install dot3k library
-RUN pip install dot3k
+
 
 # -- End of Display-O-Tron HAT section -- #
 
