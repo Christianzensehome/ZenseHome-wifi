@@ -43,8 +43,7 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
     wireless-tools && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Upgrade pip
-RUN pip install --upgrade pip
+
 
 # Install dot3k library
 RUN pip install dot3k
